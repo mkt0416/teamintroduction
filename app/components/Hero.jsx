@@ -29,7 +29,7 @@ const Hero = () => {
             easing: 'slide',
             once: true,
         });
-    }, []);
+    });
 
     return (
         <div className='relative h-[650px] overflow-hidden'>
