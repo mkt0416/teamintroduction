@@ -9,7 +9,7 @@ const aboutItem = [
 
 const About = () => {
     return (
-        <div id='about' className='w-full container mx-auto mt-64 px-8 md:px-14 lg:px-24'>
+        <div id='about' className='w-full container mx-auto mt-64 px-4 md:px-8 lg:px-12'>
             <section className='w-full'>
                 <div className='flex items-center gap-2'>
                     <div className='w-2 h-6 bg-theme'></div>

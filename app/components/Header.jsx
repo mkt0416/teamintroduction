@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import React, { useState } from 'react'
 import { IoCloseSharp } from "react-icons/io5";
+import { VscSettingsGear } from "react-icons/vsc";
 import { motion } from 'framer-motion';
 
 const headerListItem = [
@@ -13,16 +14,21 @@ const headerListItem = [
     },
     {
         id: 2,
+        title: 'Machine',
+        link: '#machine',
+    },
+    {
+        id: 3,
         title: 'Product',
         link: '#product',
     },
     {
-        id: 3,
+        id: 4,
         title: 'Features',
         link: '#features',
     },
     {
-        id: 4,
+        id: 5,
         title: 'Capacity',
         link: '#capacity',
     },
@@ -33,9 +39,13 @@ const Header = () => {
 
     return (
         <header id='home' className='py-8 border-b-2 border-darkgray'>
-            <div className='w-full container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24'>
+            <div className='w-full container mx-auto flex justify-between items-center px-4 md:px-8 lg:px-12'>
                 <Link href={'/'} className='relative group overflow-hidden'>
-                    <p className='text-2xl font-bold'>Team Introduction</p>
+                    <div className='flex items-center gap-1 text-xl md:text-3xl font-bold'>
+                        <VscSettingsGear />
+                        <p><span className='text-blue-300'>Sp</span>line <span className='text-blue-300'>
+                            T</span>eam</p>
+                    </div>
                     <span className='absolute w-full h-[2px] bg-theme bottom-0 inline-block
                     -translate-x-[100%] group-hover:-translate-x-0 transition-transform duration-700'></span>
                 </Link>

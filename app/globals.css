@@ -11,3 +11,12 @@ html {
   font-family: var(--font-poppins);
   scroll-behavior: smooth;
 }
+
+.heading-decoration {
+  @apply text-2xl xl:text-3xl font-bold
+}
+
+.heading-decoration::after {
+  content: '';
+  @apply block h-1 w-10 rounded-full bg-theme mt-1
+}

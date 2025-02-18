@@ -10,7 +10,7 @@ const promotionContent = {
 
         title: 'Leave it to me!',
         discription:
-            ' 私たちは長年培ってきたスプライン転造加工における知識とノウハウを豊富に持っています。私たちにお任せください。',
+            ' 私たちは、長年にわたり培ってきたスプライン転造加工における豊富な知識とノウハウを誇ります。どうぞ、私たちにお任せください。',
     },
     images: {
         img1: '/images/promotionimage1.jpg',
@@ -33,19 +33,19 @@ const Promotion = () => {
 
     return (
         <section className='mt-64 mb-20'>
-            <div className='w-full container mx-auto px-8 md:px-14 lg:px-24'>
+            <div className='w-full container mx-auto px-4 md:px-8 lg:px-12'>
                 <div className='flex flex-col lg:flex-row justify-between items-center'>
                     {/* Left */}
                     <div className='lg:w-5/12 mb-10 lg:mb-0'>
                         <h1
                             data-aos="fade-up"
                             data-aos-delay="300"
-                            className='text-5xl font-bold mb-10'
+                            className='text-4xl md:text-5xl font-bold mb-10'
                         >{promotionContent.text.title}</h1>
                         <p
                             data-aos="fade-up"
                             data-aos-delay="500"
-                            className='text-secondary text-xl leading-relaxed'
+                            className='text-secondary xl:text-xl leading-relaxed'
                         >{promotionContent.text.discription}</p>
                     </div>
                     {/* Right */}

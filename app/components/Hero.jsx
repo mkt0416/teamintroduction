@@ -45,30 +45,27 @@ const Hero = () => {
                 >
                 </motion.div>
             </AnimatePresence>
-            <div className='absolute w-full mx-auto px-8 md:px-14 lg:px-24'>
+            <div className='absolute w-full mx-auto px-4 md:px-8 lg:px-12'>
                 <div className='mt-28 lg:ml-24 z-50'>
                     <h1
                         data-aos="fade-up"
                         data-aos-delay="300"
-                        className='text-4xl md:text-6xl lg:text-7xl font-extrabold mb-2 text-transparent bg-clip-text
-                         bg-gradient-to-r from-blue-400 to-purple-950 drop-shadow-lg'
+                        className='text-4xl md:text-6xl lg:text-7xl font-extrabold mb-10 text-transparent bg-clip-text
+                        bg-gradient-to-r from-blue-700 to-purple-900 drop-shadow-lg'
                         style={{ lineHeight: 1.3 }}
                     >
                         Welcome to the
                         <br />
-                        Rolling Process
-                        <br />
-                        Team!!
+                        Spline Team!!
                     </h1>
                     <p
                         data-aos="fade-up"
                         data-aos-delay="500"
-                        className='z-50 max-w-2xl text-lg md:text-2xl text-gray-200 bg-white/10 px-6 py-4 
+                        className='z-50 max-w-2xl text-lg md:text-2xl text-gray-200 bg-white/10 px-3 py-4 
                         rounded-lg shadow-md backdrop-blur-xl'
                         style={{ lineHeight: 1.5 }}
                     >
-                        Now, let me introduce the Rolling Process Team!
-                        <br />
+                        Now, let me introduce the spline Team!
                         so please take your time and have a look.
                     </p>
                 </div>
