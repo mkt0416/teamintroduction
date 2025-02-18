@@ -80,7 +80,7 @@ const Header = () => {
                 </div>
 
                 {showMenu && (
-                    <div className='fixed top-0 left-0 w-full h-screen z-50 bg-darkgray bg-opacity-60'>
+                    <div className='fixed top-0 left-0 w-full h-screen z-50 bg-darkgray bg-opacity-85'>
                         <motion.div
                             className='w-[80%] h-full bg-darkgray pt-8 pl-4 relative'
                             initial={{ opacity: 0, x: -40 }}
@@ -98,7 +98,11 @@ const Header = () => {
                                 onClick={() => setShowMenu(false)}
                                 href={'/'}
                             >
-                                <p className='text-2xl font-bold mb-4'>Team Introduction</p>
+                                <div className='flex items-center gap-1 text-xl md:text-3xl font-bold mb-4'>
+                                    <VscSettingsGear />
+                                    <p><span className='text-blue-300'>Sp</span>line <span className='text-blue-300'>
+                                        T</span>eam</p>
+                                </div>
                             </Link>
                             <ul className='flex flex-col gap-3 font-semibold text-gray-300'>
                                 {headerListItem.map((item) => (

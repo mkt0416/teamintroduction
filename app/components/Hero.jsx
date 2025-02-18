@@ -32,7 +32,7 @@ const Hero = () => {
     });
 
     return (
-        <div className='relative h-[650px] overflow-hidden'>
+        <div className='relative h-[650px] border-b-2 border-darkgray overflow-hidden'>
             <AnimatePresence>
                 <motion.div
                     key={currentImage}
